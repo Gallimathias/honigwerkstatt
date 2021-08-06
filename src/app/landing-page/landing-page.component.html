@@ -1,0 +1,10 @@
+<div class="landing-page-container">
+  <app-website-header></app-website-header>
+
+  <div class="card-list-content">
+    <app-landing-text-block
+      *ngFor="let cardModel of landingTextBlockModels"
+      [Model]="cardModel"
+    ></app-landing-text-block>
+  </div>
+</div>
