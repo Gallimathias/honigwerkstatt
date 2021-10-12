@@ -9,12 +9,21 @@
         <mat-icon matListIcon>home</mat-icon>
         <a matLine> Home </a>
       </mat-list-item>
-     
+      <mat-list-item routerLink="/about">
+        <mat-icon matListIcon>emoji_nature</mat-icon>
+        <a matLine> Über uns </a>
+      </mat-list-item>
+      <mat-list-item routerLink="/contact">
+        <mat-icon matListIcon>contact_page</mat-icon>
+        <a matLine> Kontakt </a>
+      </mat-list-item>
+
       <div *ngIf="drawer.opened">
         <mat-divider></mat-divider>
-        <a matLine routerLink="/imprint"> Impressum </a>
-        <a matLine routerLink="/gdpr"> Datenschutz </a>
-        <a matLine routerLink="/contact"> Kontakt </a>
+        <div class="additional-nav">
+          <a matLine routerLink="/imprint"> Impressum </a>
+          <a matLine routerLink="/gdpr"> Datenschutz </a>
+        </div>
       </div>
     </mat-nav-list>
   </mat-sidenav>
