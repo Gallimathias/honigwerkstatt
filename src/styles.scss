@@ -67,9 +67,12 @@ button {
 button {
   cursor: pointer;
 }
-
+.hover-color:hover{
+  color: $defaultHover;
+}
 button:hover {
-  background: rgba(255, 255, 255, 0.04);
+  background: $primaryBackground;
+  color: $defaultHover;
 }
 
 //Rail nav classes
