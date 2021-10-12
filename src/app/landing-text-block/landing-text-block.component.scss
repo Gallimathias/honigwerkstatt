@@ -1,7 +1,25 @@
-.landing-text-block-container{
-    margin-top: 4em;
-    margin-bottom: 4em;
-    margin-left: 4em;
-    margin-right: 4em;
-    max-width: 32em;
+.landing-text-block-container {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+  margin-right: 4em;
+  max-width: 32em;
+
+  img.header {
+    object-fit: cover;
+    height: 340px;
+  }
+
+  mat-card-content{
+    p{
+      height: 15em;
+    }
+  }
+  mat-card-actions{
+    button {
+      margin: 0 8px;
+      background-color: transparent!important;
+      border: none;
+    }
+  }  
 }
