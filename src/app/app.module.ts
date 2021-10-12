@@ -31,6 +31,7 @@ import { ExampleComponent } from './example/example.component';
 import { PartnerLinkComponent } from './partner-link/partner-link.component';
 import { ProjectComponent } from './sites/project/project.component';
 import { BeeComponent } from './sites/bee/bee.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,8 @@ import { BeeComponent } from './sites/bee/bee.component';
     ExampleComponent,
     PartnerLinkComponent,
     ProjectComponent,
+    BeeComponent,
+    NavigationComponent,
   ],
   imports: [
     //Angular
