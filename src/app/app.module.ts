@@ -30,6 +30,7 @@ import { AboutComponent } from './sites/about/about.component';
 import { ExampleComponent } from './example/example.component';
 import { PartnerLinkComponent } from './partner-link/partner-link.component';
 import { ProjectComponent } from './sites/project/project.component';
+import { BeeComponent } from './sites/bee/bee.component';
 
 @NgModule({
   declarations: [

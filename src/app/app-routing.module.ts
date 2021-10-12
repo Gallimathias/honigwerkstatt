@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ExampleComponent } from './example/example.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutComponent } from './sites/about/about.component';
+import { BeeComponent } from './sites/bee/bee.component';
 import { ContactComponent } from './sites/contact/contact.component';
 import { GdprComponent } from './sites/gdpr/gdpr.component';
 import { ImprintComponent } from './sites/imprint/imprint.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent }, //Landig page with all important informations
   { path: 'about', component: AboutComponent },
   { path: 'project', component: ProjectComponent },  
+  { path: 'bee', component: BeeComponent },
   { path: 'example', component: ExampleComponent },
 ];
 
