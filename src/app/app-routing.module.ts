@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ExampleComponent } from './example/example.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ContactComponent } from './sites/contact/contact.component';
 import { GdprComponent } from './sites/gdpr/gdpr.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'imprint', component: ImprintComponent }, //Landig page with all important informations
   { path: 'gdpr', component: GdprComponent }, //Landig page with all important informations
   { path: 'contact', component: ContactComponent }, //Landig page with all important informations
+  { path: 'example', component: ExampleComponent },
 ];
 
 @NgModule({

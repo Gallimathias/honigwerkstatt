@@ -25,6 +25,7 @@ import { ImprintComponent } from './sites/imprint/imprint.component';
 import { GdprComponent } from './sites/gdpr/gdpr.component';
 import { ContactComponent } from './sites/contact/contact.component';
 import { RailNavDirective } from './directives/rail-nav/rail-nav.directive';
+import { ExampleComponent } from './example/example.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { RailNavDirective } from './directives/rail-nav/rail-nav.directive';
     GdprComponent,
     ContactComponent,
     RailNavDirective,
+    ExampleComponent,
   ],
   imports: [
     //Angular
