@@ -12,7 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 
 //Custom
-import { DrawerRailModule } from 'angular-material-rail-drawer';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 //App
 import { AppRoutingModule } from './app-routing.module';
@@ -49,9 +49,9 @@ import { ContactComponent } from './sites/contact/contact.component';
     MatListModule,
     MatIconModule,
     MatCardModule,
-
+    
     //Custom
-    DrawerRailModule,
+    FontAwesomeModule,
 
     //App
   ],
