@@ -1,0 +1,30 @@
+<mat-nav-list>
+  <mat-list-item class="hover-color" routerLink="/home">
+    <mat-icon matListIcon>home</mat-icon>
+    <a matLine> Home </a>
+  </mat-list-item>
+  <mat-list-item class="hover-color" routerLink="/about">
+    <mat-icon matListIcon>business</mat-icon>
+    <a matLine> Über uns </a>
+  </mat-list-item>
+  <mat-list-item class="hover-color" routerLink="/project">
+    <mat-icon matListIcon>local_florist</mat-icon>
+    <a matLine>Naturnahes Firmengelände</a>
+  </mat-list-item>
+  <mat-list-item class="hover-color" routerLink="/bee">
+    <mat-icon matListIcon>emoji_nature</mat-icon>
+    <a matLine>die Biene</a>
+  </mat-list-item>
+  <mat-list-item class="hover-color" routerLink="/contact">
+    <mat-icon matListIcon>contact_page</mat-icon>
+    <a matLine> Kontakt </a>
+  </mat-list-item>
+
+  <div *ngIf="IsOpen">
+    <mat-divider></mat-divider>
+    <div class="additional-nav">
+      <a matLine class="hover-color" routerLink="/imprint"> Impressum </a>
+      <a matLine class="hover-color" routerLink="/gdpr"> Datenschutz </a>
+    </div>
+  </div>
+</mat-nav-list>
