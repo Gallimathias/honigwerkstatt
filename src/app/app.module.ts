@@ -24,6 +24,7 @@ import { LandingTextBlockComponent } from './landing-text-block/landing-text-blo
 import { ImprintComponent } from './sites/imprint/imprint.component';
 import { GdprComponent } from './sites/gdpr/gdpr.component';
 import { ContactComponent } from './sites/contact/contact.component';
+import { RailNavDirective } from './directives/rail-nav/rail-nav.directive';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ContactComponent } from './sites/contact/contact.component';
     ImprintComponent,
     GdprComponent,
     ContactComponent,
+    RailNavDirective,
   ],
   imports: [
     //Angular
