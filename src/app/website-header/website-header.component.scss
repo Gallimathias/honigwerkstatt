@@ -1,5 +1,7 @@
+$exampleUrl: "/example";
+
 @mixin background_image {
-    background-image: url("/assets/placeholder_bees.jpg");
+    background-image: url($exampleUrl + "/assets/placeholder_bees.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
