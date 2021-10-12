@@ -29,6 +29,7 @@ import { PlainContentComponent } from './plain-content/plain-content.component';
 import { AboutComponent } from './sites/about/about.component';
 import { ExampleComponent } from './example/example.component';
 import { PartnerLinkComponent } from './partner-link/partner-link.component';
+import { ProjectComponent } from './sites/project/project.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { PartnerLinkComponent } from './partner-link/partner-link.component';
     AboutComponent,
     ExampleComponent,
     PartnerLinkComponent,
+    ProjectComponent,
   ],
   imports: [
     //Angular
