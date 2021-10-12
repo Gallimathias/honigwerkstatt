@@ -28,6 +28,7 @@ import { RailNavDirective } from './directives/rail-nav/rail-nav.directive';
 import { PlainContentComponent } from './plain-content/plain-content.component';
 import { AboutComponent } from './sites/about/about.component';
 import { ExampleComponent } from './example/example.component';
+import { PartnerLinkComponent } from './partner-link/partner-link.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ExampleComponent } from './example/example.component';
     PlainContentComponent,
     AboutComponent,
     ExampleComponent,
+    PartnerLinkComponent,
   ],
   imports: [
     //Angular
