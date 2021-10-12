@@ -7,4 +7,18 @@
       [Model]="cardModel"
     ></app-landing-text-block>
   </div>
+  <mat-divider></mat-divider>
+  <div class="logo-list-content">
+    <app-partner-link
+      *ngFor="let partner of ourPartners"
+      [Model]="partner"
+    ></app-partner-link>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="logo-list-content">
+    <app-partner-link
+      *ngFor="let support of supporter"
+      [Model]="support"
+    ></app-partner-link>
+  </div>
 </div>
