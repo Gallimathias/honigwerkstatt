@@ -1,7 +1,22 @@
-button {
-  border: none;
-}
+@import '../../settings.style.scss';
 
-.spacer {
-  flex: 1 1 auto;
+mat-toolbar{
+  background-color: $primaryBackground;
+
+  button {
+    border: none;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  fa-icon{
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-size: x-large;
+  }
 }
