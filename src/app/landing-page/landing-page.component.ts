@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LandingTextBlockModel } from '../landing-text-block/landing-text-block-model';
 import { PartnerLinkModel } from '../partner-link/partner-link-model';
 
-const exampleUrl: string = '/example';
+const exampleUrl: string = '';
 
 @Component({
   selector: 'app-landing-page',
@@ -26,14 +26,14 @@ export class LandingPageComponent implements OnInit {
       {
         title: 'die Biene',
         image: exampleUrl + '/assets/honey.jpg',
-        navLink: '/example',
+        navLink: '/bee',
         subtitle: 'Botschafterin für mehr Artenvielfalt',
         text: 'Die Biene befindet sich auf einem Höhenflug. Als sympathische Botschafterin für mehr Artenvielfalt ist die Popularität der fleißigen Pollensammlerin nicht völlig neu. Bekommt sie doch durch den Nachhaltigkeitstrend Aufwind und auch durch die aufrüttelnden Nachrichten über das Insektensterben.',
       },
       {
         title: 'Naturnahe Firmengelände',
         image: exampleUrl + '/assets/peter_bees.jpg',
-        navLink: '/example',
+        navLink: '/project',
         subtitle: 'Gemeinsam für die Artenvielfalt',
         text: 'Bei Fahrten durch verschiedene Gewerbegebiete ist uns aufgefallen, dass viele kurzgemähte Grünflächen die Firmengelände zieren, Büsche, Sträucher und Bäume säumen die Ränder. Für unsere heimischen Insekten und Vögel meistens nicht der optimale Lebensraum. Deshalb haben wir ein Konzept entwickelt, so dass auch mehr Lebensräume in Firmengelände für Insekten, Bienen, Wildbienen, Hummeln und Vögel entstehen können.',
       },

@@ -10,16 +10,28 @@
     height: 340px;
   }
 
-  mat-card-content{
-    p{
+  mat-card-content {
+    p {
       height: 15em;
     }
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  mat-card-actions{
+  mat-card-actions {
     button {
       margin: 0 8px;
-      background-color: transparent!important;
+      background-color: transparent !important;
       border: none;
     }
-  }  
+  }
+}
+
+@media all and (max-width: 426) {
+  .landing-text-block-container {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 32em;
+  }
 }
