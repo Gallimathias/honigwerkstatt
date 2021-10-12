@@ -1,4 +1,4 @@
-$exampleUrl: "/example";
+$exampleUrl: "";
 
 @mixin background_image {
     background-image: url($exampleUrl + "/assets/placeholder_bees.jpg");
@@ -15,6 +15,7 @@ $exampleUrl: "/example";
     height: 100%;
     
     h2{
+        line-height: initial;
         padding-top: 20%;
         font-size: 32pt;
         width: 100%;
