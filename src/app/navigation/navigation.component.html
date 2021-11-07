@@ -1,21 +1,21 @@
 <mat-nav-list>
-  <mat-list-item class="hover-color" routerLink="/home">
+  <mat-list-item class="hover-color" routerLink="/home" (click)="windowInformation.IsMobile ? drawer?.toggle() : {}">
     <mat-icon matListIcon>home</mat-icon>
     <a matLine> Home </a>
   </mat-list-item>
-  <mat-list-item class="hover-color" routerLink="/about">
+  <mat-list-item class="hover-color" routerLink="/about" (click)="windowInformation.IsMobile ? drawer?.toggle() : {}">
     <mat-icon matListIcon>business</mat-icon>
     <a matLine> Über uns </a>
   </mat-list-item>
-  <mat-list-item class="hover-color" routerLink="/project">
+  <mat-list-item class="hover-color" routerLink="/project" (click)="windowInformation.IsMobile ? drawer?.toggle() : {}">
     <mat-icon matListIcon>local_florist</mat-icon>
     <a matLine>Naturnahes Firmengelände</a>
   </mat-list-item>
-  <mat-list-item class="hover-color" routerLink="/bee">
+  <mat-list-item class="hover-color" routerLink="/bee" (click)="windowInformation.IsMobile ? drawer?.toggle() : {}">
     <mat-icon matListIcon>emoji_nature</mat-icon>
     <a matLine>die Biene</a>
   </mat-list-item>
-  <mat-list-item class="hover-color" routerLink="/contact">
+  <mat-list-item class="hover-color" routerLink="/contact" (click)="windowInformation.IsMobile ? drawer?.toggle() : {}">
     <mat-icon matListIcon>contact_page</mat-icon>
     <a matLine> Kontakt </a>
   </mat-list-item>
