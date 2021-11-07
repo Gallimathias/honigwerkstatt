@@ -16,12 +16,9 @@ export class RailNavDirective implements AfterViewChecked {
     @Host() @Self() private readonly sideNav: MatSidenav,
     @Inject(forwardRef(() => MatSidenavContainer))
     private readonly sideNavContainer: MatSidenavContainer
-  ) {
-    
-  }
+  ) {}
 
   ngAfterViewChecked(): void {
-
     this.sideNavContent =
       this.element.nativeElement?.parentElement?.querySelector(
         '.mat-drawer-content'
@@ -29,12 +26,20 @@ export class RailNavDirective implements AfterViewChecked {
 
     if (this.sideNav.opened) {
       this.disableRailMode(this.element.nativeElement);
+
+      if (this.sideNavContent != undefined) {
+        // this.renderer2.removeStyle(this.sideNavContent, 'marginLeft');
+      } else {
+        console.error('side nav is undefined');
+      }
     } else {
       this.enableRailMode(this.element.nativeElement);
 
       if (this.sideNavContent != undefined) {
         let width = this.element.nativeElement.clientWidth + 'px';
-        this.renderer2.setStyle(this.sideNavContent, 'marginLeft', width);
+        // this.renderer2.setStyle(this.sideNavContent, 'marginLeft', width);
+      } else {
+        console.error('side nav is undefined');
       }
     }
   }

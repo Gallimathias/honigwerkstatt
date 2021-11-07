@@ -1,22 +1,25 @@
-@import '../settings.style.scss';
+@import "../settings.style.scss";
 
-mat-sidenav-container{
-    height: 90vh;
+mat-sidenav-container {
+  height: 90vh;
 
-    mat-sidenav{
-        background-color: $primaryBackground;
+  mat-sidenav {
+    background-color: $primaryBackground;
+  }
+
+  mat-sidenav-content {
+    background-color: $primaryBackground;
+    @media screen and (min-width: 426px) {
+      margin-left: 4em;
     }
+  }
 
-    mat-sidenav-content{
-        background-color: $primaryBackground;
-    }
+  .additional-nav {
+    margin-left: 8px;
+    margin-right: 8px;
 
-    .additional-nav{
-        margin-left: 8px;
-        margin-right: 8px;
-    
-        a{
-            margin-right: 8px;
-        }
+    a {
+      margin-right: 8px;
     }
+  }
 }
