@@ -1,5 +1,5 @@
 
-<section *ngIf="!IsMobile; then default else mobile"></section>
+<section *ngIf="!windowInformation.IsMobile; then default else mobile"></section>
 <ng-template #default>
   <header>
     <app-top-bar [drawer]="drawer"></app-top-bar>

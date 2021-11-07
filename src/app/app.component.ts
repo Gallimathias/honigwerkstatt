@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { from, fromEvent, fromEventPattern } from 'rxjs';
+import { WindowInformationService } from './window-information.service';
 
 @Component({
   selector: 'app-root',
@@ -10,12 +11,7 @@ import { from, fromEvent, fromEventPattern } from 'rxjs';
 export class AppComponent {
   title = 'honigwerkstatt';
 
-  public IsMobile: boolean = false;
-
-  constructor() {
-    window.onresize = () => {
-      this.IsMobile = window.outerWidth < 426;
-    };
-
+  constructor(public windowInformation: WindowInformationService) {
+    
   }
 }

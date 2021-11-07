@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MatDrawer } from '@angular/material/sidenav';
+import { WindowInformationService } from '../window-information.service';
 
 @Component({
   selector: 'app-navigation',
@@ -15,7 +16,7 @@ export class NavigationComponent implements OnInit {
     return this.drawer?.opened ?? false;
   }
   
-  constructor() { }
+  constructor(public windowInformation: WindowInformationService) { }
 
   ngOnInit(): void {
   }

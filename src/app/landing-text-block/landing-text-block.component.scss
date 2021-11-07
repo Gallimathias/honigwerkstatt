@@ -5,6 +5,14 @@
   margin-right: 4em;
   max-width: 32em;
 
+  @media  (max-width: 426px) {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 32em;
+  }
+
   img.header {
     object-fit: cover;
     height: 340px;
@@ -23,15 +31,5 @@
       background-color: transparent !important;
       border: none;
     }
-  }
-}
-
-@media all and (max-width: 426) {
-  .landing-text-block-container {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    max-width: 32em;
   }
 }
