@@ -13,6 +13,7 @@ import { MatCardModule } from '@angular/material/card';
 
 //Custom
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DrawerRailModule } from 'angular-material-rail-drawer';
 
 //App
 import { AppRoutingModule } from './app-routing.module';
@@ -24,7 +25,6 @@ import { LandingTextBlockComponent } from './landing-text-block/landing-text-blo
 import { ImprintComponent } from './sites/imprint/imprint.component';
 import { GdprComponent } from './sites/gdpr/gdpr.component';
 import { ContactComponent } from './sites/contact/contact.component';
-import { RailNavDirective } from './directives/rail-nav/rail-nav.directive';
 import { PlainContentComponent } from './plain-content/plain-content.component';
 import { AboutComponent } from './sites/about/about.component';
 import { ExampleComponent } from './example/example.component';
@@ -43,7 +43,6 @@ import { NavigationComponent } from './navigation/navigation.component';
     ImprintComponent,
     GdprComponent,
     ContactComponent,
-    RailNavDirective,
     PlainContentComponent,
     AboutComponent,
     ExampleComponent,
@@ -68,6 +67,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     
     //Custom
     FontAwesomeModule,
+    DrawerRailModule,
 
     //App
   ],
